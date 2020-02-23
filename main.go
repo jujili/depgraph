@@ -48,6 +48,7 @@ func init() {
 }
 
 func main() {
+	log.Println("jujili,jujili.")
 	pkgs = make(map[string]*build.Package)
 	erroredPkgs = make(map[string]bool)
 	ids = make(map[string]string)
